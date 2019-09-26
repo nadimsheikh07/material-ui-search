@@ -2,9 +2,23 @@
   "name": "material-ui-search",
   "version": "1.0.0",
   "description": "material ui search bar ",
-  "author": "https://github.com/nadimsheikh07/material-ui-search.git",
+  "author": "nadim sheikh (nadim.sheikh.07@gmail.com)",
   "license": "MIT",
-  "repository": "https://github.com/nadimsheikh07/material-ui-search.git/material-ui-search",
+  "keywords": [
+    "react",
+    "redux",
+    "material",
+    "material-design",
+    "material-ui",
+    "mui",
+    "search",
+    "searchbar",
+    "material-ui-search"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadimsheikh07/material-ui-search.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
