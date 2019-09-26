@@ -1,12 +1,20 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'material-ui-search'
+import { SearchBar } from 'material-ui-search'
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <SearchBar
+          onChange={() => console.log('onChange')}
+          onRequestSearch={() => console.log('onRequestSearch')}
+          onClear={() => console.log('onClear')}
+          style={{
+            margin: '0 auto',
+            maxWidth: 800
+          }}
+        />
       </div>
     )
   }
