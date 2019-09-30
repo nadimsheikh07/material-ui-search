@@ -29,7 +29,7 @@ class App extends Component {
         <SearchBar
           onChange={() => console.log('onChange')}
           onRequestSearch={() => console.log('onRequestSearch')}
-          onClear={() => console.log('onClear')}
+          onCancelSearch={() => console.log('onCancelSearch')}
           style={{
             margin: '0 auto',
             maxWidth: 800
