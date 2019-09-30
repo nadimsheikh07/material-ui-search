@@ -4,4 +4,18 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+import { Provider } from 'react-redux'
+import { SearchbarProvider } from 'material-ui-search'
+import configureStore from './store'
+const store = configureStore()
+
+
+ReactDOM.render(
+    <Provider store={store}>
+        <SearchbarProvider>
+            <App />
+        </SearchbarProvider>
+    </Provider>,
+    document.querySelector('#root')
+)
+
