@@ -67,7 +67,7 @@ class MyComponent extends React.Component {
   }
 
   render () {
-    <div>
+    <React.Fragment>
         <SearchBar
           onChange={(e) => { this.onChangeSearch(e) }}
           onRequestSearch={(e) => { this.onChangeSearch(e) }}
@@ -77,7 +77,7 @@ class MyComponent extends React.Component {
             maxWidth: 800
           }}
         />
-    </div>
+    </React.Fragment>
   }
 }
 
